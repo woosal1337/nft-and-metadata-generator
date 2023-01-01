@@ -1,0 +1,23 @@
+{
+  "Background": {
+    "Light Brown": 456,
+    "Cyan": 123,
+    "Dark Brown": 123,
+    "Deep Purple": 456,
+    "Emerald": 789
+  },
+  "Skin": {
+    "Golden": 100,
+    "White": 500,
+    "Red": 200,
+    "Standard": 4000,
+    "Dark": 250
+  },
+  "Expression": {
+    "Reckless": 1111,
+    "Crazy": 1111,
+    "Angry": 1111,
+    "Shocked": 2000,
+    "Sad": 1234
+  }
+}
