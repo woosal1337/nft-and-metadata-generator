@@ -91,7 +91,7 @@ $ pip install -r requirements.txt
 - All of the images in the `app/images` folder should be the same size. Any size mismatch 
   will NOT cause the script to fail, however, final images will be distorted.
 - `rarity.json` file should be in the `app` folder. The structure of the file is 
-  explained in the [docs](app/docs/README.md) folder, `README.md` file.
+  explained in the [docs](docs/README.md) folder, `README.md` file.
 - Finally when running the `launcher.py` to generate all of the NFTs, make sure to 
   be in the correct directory and the path, which is:
 ```zsh
