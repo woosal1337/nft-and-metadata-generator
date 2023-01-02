@@ -148,7 +148,7 @@ if __name__ == "__main__":
         project_name="Test",
         project_description="Test",
         project_images_link="https://test.com",
-        nft_number=50
+        nft_number=2,
     )
 
     metadata_generator.generate_all_and_write()
