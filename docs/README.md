@@ -55,8 +55,10 @@
   `rarity.json` file, you should have a `Golden.png` image in the trait folders. Any 
   name mismatch will cause the script to fail.
 ```diff
+Skin: {
 + "Golden": 50
 ...
 + "White": 500,
 + "Dark": 50
+}
 ```
