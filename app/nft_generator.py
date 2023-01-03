@@ -65,19 +65,19 @@ class NFTGenerator:
             background = Image.open(
                 f"{self.images_path}/"
                 f'{metadata["attributes"][0]["trait_type"]}/'
-                f'{metadata["attributes"][0]["value"]}.{self.images_extension}'
+                f'{metadata["attributes"][0]["value"]}.{self.image_extension}'
             )
 
             for i in range(1, len(metadata["attributes"])):
                 foreground = Image.open(
                     f"{self.images_path}/"
                     f'{metadata["attributes"][i]["trait_type"]}/'
-                    f'{metadata["attributes"][i]["value"]}.{self.images_extension}'
+                    f'{metadata["attributes"][i]["value"]}.{self.image_extension}'
                 )
                 background.paste(foreground, (0, 0), foreground)
 
             background.save(
-                f"./nfts/{metadata_number}.png",
+                f"./nfts/{nft_number}.{self.image_extension}",
                 "PNG",
                 quality=100,
                 optimize=True,
@@ -96,7 +96,7 @@ class NFTGenerator:
         """
         try:
             self.logger.info("Generating all NFTs...")
-            for i in range(self.nft_number):
+            for i in range(1, self.nft_number + 1):
                 self.generate_nft(nft_number=i)
             self.logger.info("All NFTs generated.")
 

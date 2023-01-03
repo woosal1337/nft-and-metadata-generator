@@ -1,23 +1,17 @@
 {
   "Background": {
-    "Light Brown": 100,
-    "Cyan": 200,
-    "Dark Brown": 300,
-    "Deep Purple": 350,
-    "Emerald": 50
+    "DarkPurple": 100.0,
+    "Grey": 100.0,
+    "Mix": 200.0
+  },
+  "Gun": {
+    "M4": 100.0,
+    "None": 200.0,
+    "Scar": 100.0
   },
   "Skin": {
-    "Golden": 50,
-    "White": 500,
-    "Red": 150,
-    "Standard": 250,
-    "Dark": 50
-  },
-  "Expression": {
-    "Reckless": 100,
-    "Crazy": 50,
-    "Angry": 200,
-    "Shocked": 350,
-    "Sad": 300
+    "Black": 100.0,
+    "Brown": 100.0,
+    "Green": 100.0
   }
 }

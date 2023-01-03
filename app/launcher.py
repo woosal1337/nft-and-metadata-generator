@@ -1,12 +1,12 @@
-from .metadata_generator import MetadataGenerator
-from .nft_generator import NFTGenerator
+from metadata_generator import MetadataGenerator
+from nft_generator import NFTGenerator
 
 
 if __name__ == "__main__":
     project_name = "My Project"
     project_description = "My Project Description"
     project_image = "https://myproject.com/image.png"
-    nft_number = 10
+    nft_number = 25
 
     # Generating and saving metadata
     metadata_generator = MetadataGenerator(
