@@ -101,6 +101,26 @@ $ pwd
 > nft-and-metadata-generator/app/
 ```
 
+3. Streamlit GUI Setup and Usage:
+```zsh
+$ pip install -r requirements.txt
+$ cd app/
+
+$ pwd
+
+> nft-and-metadata-generator/app/
+
+$ streamlit run streamlit_gui_generator.py
+
+>  You can now view your Streamlit app in your browser.
+
+>  Local URL: http://localhost:8501
+>  Network URL: http://192.168.1.114:8501
+```
+
+### Streamlit Video Guide:
+[![Streamlit Video Guide](src/nft_generator_thumbnail.png)](https://www.youtube.com/watch?v=QSAhQx4UHlw)
+
 # Usage
 - To generate all of the NFTs, run the `launcher.py` file after modifying `rarity.
   json` and putting all of the necessary images in the `app/images` folder. Make 
